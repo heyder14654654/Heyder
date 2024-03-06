@@ -1,0 +1,164 @@
+
+
+import java.util.Scanner;
+
+import co.edu.Data;
+
+public class App 
+
+{
+        int numero1;
+        int numero2;
+        
+        System.out.println("Ingresa base del triangulo");
+        Scanner num1 = new Scanner (System.in);
+        numero1 = num1.nextInt();
+        System.out.println("Ingresa altura del triangulo");
+        Scanner num2 = new Scanner(System.in);
+        numero2 = num2.nextInt();
+        int resultado = ((numero1*numero2)/2);
+        System.out.println("El area del triangulo es: " + resultado);
+    }
+}
+
+*
+
+import java.util.Scanner;
+
+import co.edu.Data;
+
+public class App 
+
+  int numero1;
+        int numero2;{
+        
+        System.out.println("Ingresa el primero numero");
+        Scanner num1 = new Scanner (System.in);
+        numero1 = num1.nextInt();
+        System.out.println("Ingresa el segundo numero");
+        Scanner num2 = new Scanner(System.in);
+        numero2 = num2.nextInt();
+        int resultado = numero1 + numero2;
+        System.out.println("La suma de los dos numeros es: " + resultado);
+    }
+    
+}
+
+
+*
+import java.util.Scanner;
+
+import co.edu.Data;
+
+public class App 
+
+ {
+        double numero1;
+        System.out.println("Ingresa Numero");
+        Scanner num1 = new Scanner (System.in);
+        numero1 = num1.nextDouble();
+        double resultado = Math.pow(numero1, 2);
+        System.out.println("El numero al cuadrado es: " + resultado);
+    }
+}
+
+
+import java.util.Scanner;
+
+import co.edu.Data;
+
+public class App {
+
+ {
+        double numero1;
+        System.out.println("Ingresa Numero");
+        Scanner num1 = new Scanner (System.in);
+        numero1 = num1.nextDouble();
+        double resultado = Math.pow(numero1, 2);
+        System.out.println("El numero al cuadrado es: " + resultado);
+    }
+}
+
+*
+import java.util.Scanner;
+
+import co.edu.Data;
+
+public class App{
+
+{
+  int lado, resultado;        
+        Scanner obj = new Scanner(System.in);
+ 
+        System.out.print("Ingrese lado:\t");
+        lado = obj.nextInt();
+ 
+        resultado = (lado*lado);
+ 
+        System.out.println("El area del Cuadrado es:\t"+resultado);
+        System.out.println("El perimetro del Cuadrado es:\t"+(lado+lado+lado+lado));
+        
+    }
+}
+
+import java.util.*;
+
+import co.edu.Data;
+
+public class App{
+
+{
+
+  Scanner input = new Scanner(System.in);
+        
+                double radio;
+		double volumen;
+		double altura;
+		double area;
+		
+		Scanner entrada =new Scanner(System.in);
+		
+		System.out.print("Digita  el radio del cilindro:\t");
+		radio = entrada.nextDouble();
+		
+		System.out.print("Digita  la altura del cilindro:\t");
+		altura = entrada.nextDouble();
+		
+		area = ((2*3.14)*(radio)*(altura*radio));
+		volumen = ((3.14*(radio*radio))*altura);
+		
+		System.out.print("El area del cilindro es; " +area+"\t Cm2 \n");
+		System.out.print("El volumen del cilindro es; "+volumen+"\tCm3");
+        
+    }
+}
+
+
+*
+import java.util.*;
+
+import co.edu.Data;
+
+public class App 
+
+    int numero1;
+        int numero2;
+        int numero3;
+        
+        System.out.println("Ingrese valor 1");
+        Scanner num1 = new Scanner (System.in);
+        numero1 = num1.nextInt();
+        System.out.println("Ingrese valor 2");
+        Scanner num2 = new Scanner(System.in);
+        numero2 = num2.nextInt();
+        System.out.println("Ingrese valor 3");
+        Scanner num3 = new Scanner(System.in);
+        numero3 = num3.nextInt();
+        int resultado = ((numero1+numero2+numero3)/3);
+        System.out.println("El promedio de los numeros es: " + resultado);
+
+
+    }
+}
+
+
